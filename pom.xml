@@ -127,7 +127,9 @@
       <plugins>
 
 	<plugin>
+	  <groupId>org.apache.maven.plugins</groupId>
 	  <artifactId>maven-release-plugin</artifactId>
+	  <version>2.5.2</version>
 	  <configuration>
 	    <arguments>${arguments} -Psonatype-oss-release</arguments>
 	  </configuration>
