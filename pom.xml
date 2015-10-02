@@ -223,6 +223,12 @@
 	  <version>1.8</version>
 	</plugin>
 
+          <plugin>
+            <groupId>org.quattor.pan</groupId>
+            <artifactId>panc-maven-plugin</artifactId>
+            <version>10.2</version>
+        </plugin>
+
       </plugins>
 
     </pluginManagement>
